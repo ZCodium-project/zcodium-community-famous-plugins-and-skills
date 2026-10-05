@@ -1,0 +1,411 @@
+{
+  "name": "zcodium-community-famous-plugins-and-skills",
+  "description": "ZCodium community hub for famous plugins and skills: curated Claude Code plugins, Codex plugins, ZCode ecosystem plugins and standalone skills, vendored with licence and provenance notes.",
+  "description_i18n": {
+    "en": "ZCodium community hub for famous plugins and skills: curated Claude Code plugins, Codex plugins, ZCode ecosystem plugins and standalone skills, vendored with licence and provenance notes.",
+    "zh-CN": "ZCodium 社区知名插件与技能聚合：精选 Claude Code 插件、Codex 插件、ZCode 生态插件与独立技能，均注明来源与许可。"
+  },
+  "owner": {
+    "name": "ZCodium Project",
+    "url": "https://github.com/ZCodium-project"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "version": "6.4.2",
+      "source": "./claude-code-plugins/superpowers",
+      "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
+      "displayName_i18n": {
+        "en": "Superpowers",
+        "zh-CN": "Superpowers"
+      },
+      "description_i18n": {
+        "en": "Agentic skills framework and software development methodology: brainstorming, planning, TDD, systematic debugging, code review and delivery workflows.",
+        "zh-CN": "智能体技能框架与软件开发方法论：头脑风暴、计划、TDD、系统化调试、代码审查与交付工作流。"
+      },
+      "icon": "https://raw.githubusercontent.com/ZCodium-project/zcodium-community-famous-plugins-and-skills/main/assets/superpowers.png",
+      "category": "developer-tools"
+    },
+    {
+      "name": "code-review",
+      "version": "0.0.0",
+      "source": "./claude-code-plugins/code-review",
+      "description": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "displayName_i18n": {
+        "en": "Code Review",
+        "zh-CN": "代码审查"
+      },
+      "category": "developer-tools"
+    },
+    {
+      "name": "commit-commands",
+      "version": "0.0.0",
+      "source": "./claude-code-plugins/commit-commands",
+      "description": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "displayName_i18n": {
+        "en": "Commit Commands",
+        "zh-CN": "提交命令"
+      },
+      "category": "developer-tools"
+    },
+    {
+      "name": "security-guidance",
+      "version": "2.0.9",
+      "source": "./claude-code-plugins/security-guidance",
+      "description": "Security review for Claude-generated code. Pattern-based warnings on edits, LLM-powered diff review on Stop, and an agentic commit reviewer that catches injection, XSS, SSRF, hardcoded secrets, and 25+ other vulnerability classes.",
+      "author": {
+        "name": "David Dworken",
+        "email": "dworken@anthropic.com"
+      },
+      "displayName_i18n": {
+        "en": "Security Guidance",
+        "zh-CN": "安全指导"
+      },
+      "category": "developer-tools"
+    },
+    {
+      "name": "pr-review-toolkit",
+      "version": "0.0.0",
+      "source": "./claude-code-plugins/pr-review-toolkit",
+      "description": "Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, and code simplification",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "displayName_i18n": {
+        "en": "PR Review Toolkit",
+        "zh-CN": "PR 审查工具包"
+      },
+      "category": "developer-tools"
+    },
+    {
+      "name": "skill-creator",
+      "version": "0.0.0",
+      "source": "./claude-code-plugins/skill-creator",
+      "description": "Create new skills, improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, or benchmark skill performance with variance analysis.",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "displayName_i18n": {
+        "en": "Skill Creator",
+        "zh-CN": "技能创建器"
+      },
+      "category": "utilities"
+    },
+    {
+      "name": "frontend-design",
+      "version": "0.0.0",
+      "source": "./claude-code-plugins/frontend-design",
+      "description": "Frontend design skill for UI/UX implementation",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "displayName_i18n": {
+        "en": "Frontend Design",
+        "zh-CN": "前端设计"
+      },
+      "category": "developer-tools"
+    },
+    {
+      "name": "plugin-dev",
+      "version": "0.0.0",
+      "source": "./claude-code-plugins/plugin-dev",
+      "description": "Plugin development toolkit with skills for creating agents, commands, hooks, MCP integrations, and comprehensive plugin structure guidance",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "displayName_i18n": {
+        "en": "Plugin Dev",
+        "zh-CN": "插件开发"
+      },
+      "category": "developer-tools"
+    },
+    {
+      "name": "claude-code-setup",
+      "version": "1.0.0",
+      "source": "./claude-code-plugins/claude-code-setup",
+      "description": "Analyze codebases and recommend tailored Claude Code automations such as hooks, skills, MCP servers, and subagents.",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "displayName_i18n": {
+        "en": "Claude Code Setup",
+        "zh-CN": "配置推荐"
+      },
+      "category": "utilities"
+    },
+    {
+      "name": "compound-engineering",
+      "version": "3.30.3",
+      "source": "./codex-plugins/compound-engineering",
+      "description": "Brainstorm, plan, debug, review, and compound learnings with AI agents",
+      "author": {
+        "name": "Kieran Klaassen and Trevin Chow"
+      },
+      "displayName": "Compound Engineering",
+      "displayName_i18n": {
+        "en": "Compound Engineering",
+        "zh-CN": "复合工程"
+      },
+      "description_i18n": {
+        "en": "Brainstorm, plan, debug, review, and compound learnings with AI agents. 36 skills covering the full engineering loop.",
+        "zh-CN": "用 AI 智能体完成头脑风暴、计划、调试、审查与经验沉淀，36 个技能覆盖完整工程闭环。"
+      },
+      "category": "developer-tools"
+    },
+    {
+      "name": "github",
+      "version": "0.1.2",
+      "source": "./zcodium-plugins/github",
+      "description": "GitHub CLI workflows for commits, pull requests, issues, releases, Actions, repositories, Codespaces, and other GitHub resources.",
+      "author": {
+        "name": "Z.ai",
+        "url": "https://z.ai"
+      },
+      "displayName_i18n": {
+        "en": "GitHub",
+        "zh-CN": "GitHub"
+      },
+      "description_i18n": {
+        "en": "GitHub CLI workflows for commits, pull requests, issues, releases, Actions, repositories, Codespaces, and other GitHub resources.",
+        "zh-CN": "基于 GitHub CLI 的 GitHub 工作流，覆盖提交、Pull Request、Issue、Release、Actions、仓库、Codespaces 等资源。"
+      },
+      "icon": "https://raw.githubusercontent.com/ZCodium-project/zcodium-community-famous-plugins-and-skills/main/assets/github.png",
+      "category": "developer-tools"
+    },
+    {
+      "name": "gitlab",
+      "version": "0.1.3",
+      "source": "./zcodium-plugins/gitlab",
+      "description": "GitLab CLI workflows based on GitLab's official Agent Skills for merge requests, issues, CI/CD, repositories, releases, and API operations.",
+      "author": {
+        "name": "Z.ai",
+        "url": "https://z.ai"
+      },
+      "displayName_i18n": {
+        "en": "GitLab",
+        "zh-CN": "GitLab"
+      },
+      "description_i18n": {
+        "en": "GitLab CLI workflows based on GitLab's official Agent Skills for merge requests, issues, CI/CD, repositories, releases, and API operations.",
+        "zh-CN": "基于官方 GitLab CLI 的 Merge Request、Issue、CI/CD、仓库、Release 与 API 工作流。"
+      },
+      "icon": "https://raw.githubusercontent.com/ZCodium-project/zcodium-community-famous-plugins-and-skills/main/assets/gitlab.png",
+      "category": "developer-tools"
+    },
+    {
+      "name": "alibaba-cloud-cli",
+      "version": "0.1.2",
+      "source": "./zcodium-plugins/alibaba-cloud-cli",
+      "description": "Alibaba Cloud CLI workflows for credential setup, profile checks, and safe cloud resource operations.",
+      "author": {
+        "name": "Z.ai",
+        "url": "https://z.ai"
+      },
+      "displayName_i18n": {
+        "en": "Alibaba Cloud CLI",
+        "zh-CN": "阿里云 CLI"
+      },
+      "description_i18n": {
+        "en": "Alibaba Cloud CLI workflows for credential setup, profile checks, and safe cloud resource operations.",
+        "zh-CN": "阿里云 CLI 工作流：配置凭证与 profile，并安全执行云资源查询和操作。"
+      },
+      "icon": "https://raw.githubusercontent.com/ZCodium-project/zcodium-community-famous-plugins-and-skills/main/assets/alibaba-cloud-cli.png",
+      "category": "developer-tools"
+    },
+    {
+      "name": "lark-cli",
+      "version": "0.1.2",
+      "source": "./zcodium-plugins/lark-cli",
+      "description": "Lark CLI workflows for docs, sheets, Base, calendar, messaging, and other SaaS resources with guided setup and OAuth login.",
+      "author": {
+        "name": "Z.ai",
+        "url": "https://z.ai"
+      },
+      "displayName_i18n": {
+        "en": "Lark CLI",
+        "zh-CN": "飞书 CLI"
+      },
+      "description_i18n": {
+        "en": "Lark CLI workflows for docs, sheets, Base, calendar, messaging, and other SaaS resources with guided setup and OAuth login.",
+        "zh-CN": "飞书 CLI 工作流：覆盖文档、表格、多维表格、日历、消息等 SaaS 资源，并引导应用配置与 OAuth 登录。"
+      },
+      "icon": "https://raw.githubusercontent.com/ZCodium-project/zcodium-community-famous-plugins-and-skills/main/assets/lark-cli.png",
+      "category": "productivity"
+    },
+    {
+      "name": "tencent-meeting-cli",
+      "version": "0.1.3",
+      "source": "./zcodium-plugins/tencent-meeting-cli",
+      "description": "Tencent Meeting CLI workflows with OAuth2 setup, meeting management, recordings, and attendee reports.",
+      "author": {
+        "name": "Z.ai",
+        "url": "https://z.ai"
+      },
+      "displayName_i18n": {
+        "en": "Tencent Meeting CLI",
+        "zh-CN": "腾讯会议 CLI"
+      },
+      "description_i18n": {
+        "en": "Tencent Meeting CLI workflows with OAuth2 setup, meeting management, recordings, and attendee reports.",
+        "zh-CN": "腾讯会议 CLI 工作流：OAuth2 授权、会议管理、录制管理和参会报告查询。"
+      },
+      "icon": "https://raw.githubusercontent.com/ZCodium-project/zcodium-community-famous-plugins-and-skills/main/assets/tencent-meeting-cli.png",
+      "category": "productivity"
+    },
+    {
+      "name": "dingtalk-cli",
+      "version": "0.1.1",
+      "source": "./zcodium-plugins/dingtalk-cli",
+      "description": "DingTalk Workspace CLI workflows with OAuth/device authorization, profile checks, and optional upstream Skills.",
+      "author": {
+        "name": "Z.ai",
+        "url": "https://z.ai"
+      },
+      "displayName_i18n": {
+        "en": "DingTalk CLI",
+        "zh-CN": "钉钉 CLI"
+      },
+      "description_i18n": {
+        "en": "DingTalk Workspace CLI workflows with OAuth/device authorization, profile checks, and optional upstream Skills.",
+        "zh-CN": "钉钉 Workspace CLI 工作流：OAuth/设备授权、验证组织账号，并按需安装上游 Skills。"
+      },
+      "icon": "https://raw.githubusercontent.com/ZCodium-project/zcodium-community-famous-plugins-and-skills/main/assets/dingtalk-cli.png",
+      "category": "productivity"
+    },
+    {
+      "name": "wecom-cli",
+      "version": "0.1.1",
+      "source": "./zcodium-plugins/wecom-cli",
+      "description": "WeCom CLI workflows for messages, docs, sheets, mail, calendar, meetings, contacts, and todos with QR authentication.",
+      "author": {
+        "name": "Z.ai",
+        "url": "https://z.ai"
+      },
+      "displayName_i18n": {
+        "en": "WeCom CLI",
+        "zh-CN": "企业微信 CLI"
+      },
+      "description_i18n": {
+        "en": "WeCom CLI workflows for messages, docs, sheets, mail, calendar, meetings, contacts, and todos with QR authentication.",
+        "zh-CN": "企业微信 CLI 工作流：覆盖消息、文档、表格、邮件、日历、会议、通讯录和待办，并支持扫码授权与状态检查。"
+      },
+      "icon": "https://raw.githubusercontent.com/ZCodium-project/zcodium-community-famous-plugins-and-skills/main/assets/wecom-cli.png",
+      "category": "productivity"
+    },
+    {
+      "name": "obsidian",
+      "version": "0.1.2",
+      "source": "./zcodium-plugins/obsidian",
+      "description": "Obsidian authoring skills from kepano/obsidian-skills: Obsidian Flavored Markdown notes, Bases database views, JSON Canvas boards, vault automation via Obsidian CLI, clean web extraction with Defuddle, and Knap template rendering — plus visualization skills from axtonliu/axton-obsidian-visual-skills: Mermaid and Excalidraw diagram generation and text-to-canvas layout. A setup skill verifies and installs the Obsidian CLI, defuddle, and knap.",
+      "author": {
+        "name": "Z.ai",
+        "url": "https://z.ai"
+      },
+      "displayName_i18n": {
+        "en": "Obsidian",
+        "zh-CN": "Obsidian"
+      },
+      "description_i18n": {
+        "en": "Obsidian authoring skills: Flavored Markdown notes, Bases views, JSON Canvas boards, CLI vault automation, web extraction and Mermaid/Excalidraw visualizations.",
+        "zh-CN": "Obsidian 创作技能：风格化 Markdown 笔记、Bases 数据库视图、JSON Canvas 白板、CLI 库操作、网页正文提取与 Mermaid/Excalidraw 可视化。"
+      },
+      "icon": "https://raw.githubusercontent.com/ZCodium-project/zcodium-community-famous-plugins-and-skills/main/assets/obsidian.png",
+      "category": "productivity"
+    },
+    {
+      "name": "mimosa",
+      "version": "1.0.3",
+      "source": "./zcodium-plugins/mimosa",
+      "description": "Local-first security guardrails for ZCode with pre-write hooks, end-of-turn review, Git gates, commands, a security-scan skill, and an optional MCP server for sealed deep scans.",
+      "author": {
+        "name": "Mimosa"
+      },
+      "displayName_i18n": {
+        "en": "Code Security Protection",
+        "zh-CN": "代码安全防护"
+      },
+      "description_i18n": {
+        "en": "Local-first security guardrails: pre-write hooks, end-of-turn review, Git gates, commands, a security-scan skill, and an optional MCP server for sealed deep scans.",
+        "zh-CN": "本地优先的代码安全防线：写入前 Hook、任务收尾复查、Git 门禁、命令、安全扫描 Skill，以及可选的密封深扫 MCP 服务。"
+      },
+      "icon": "https://raw.githubusercontent.com/ZCodium-project/zcodium-community-famous-plugins-and-skills/main/assets/mimosa.png",
+      "category": "developer-tools"
+    },
+    {
+      "name": "cloudbase-skills",
+      "version": "0.1.0",
+      "source": "./zcodium-plugins/cloudbase-skills",
+      "description": "CloudBase development skills and MCP integration for building, deploying, and troubleshooting Web, WeChat Mini Program, database, cloud function, CloudRun, storage, and AI projects.",
+      "author": {
+        "name": "TencentCloudBase",
+        "url": "https://github.com/TencentCloudBase/cloudbase-skills"
+      },
+      "displayName_i18n": {
+        "en": "CloudBase",
+        "zh-CN": "腾讯云 CloudBase"
+      },
+      "description_i18n": {
+        "en": "CloudBase development skills and MCP integration for building, deploying, and troubleshooting Web, WeChat Mini Program, database, cloud function, CloudRun, storage, and AI projects.",
+        "zh-CN": "腾讯云 CloudBase 开发技能与 MCP 集成，覆盖 Web、微信小程序、数据库、云函数、云托管、云存储和 AI 项目的开发、部署与排障。"
+      },
+      "icon": "https://docs.cloudbase.net/en/img/favicon.png",
+      "category": "developer-tools"
+    },
+    {
+      "name": "video2code",
+      "version": "0.6.0",
+      "source": "./zcodium-plugins/video2code",
+      "description": "基于 ZCode 内置 Browser Use WebView 录制 WebM 并用 ffmpeg 转成 MP4/URL 复刻；无需 Playwright 或外部 Chromium",
+      "author": {
+        "name": "Z.ai",
+        "url": "https://z.ai"
+      },
+      "displayName_i18n": {
+        "en": "Video2Code",
+        "zh-CN": "录屏复刻网页"
+      },
+      "description_i18n": {
+        "en": "Records WebM through ZCode's built-in Browser Use WebView and converts it to MP4 with ffmpeg for video/URL replication; no Playwright or external Chromium required.",
+        "zh-CN": "基于 ZCode 内置 Browser Use WebView 录制 WebM 并用 ffmpeg 转成 MP4/URL 复刻；无需 Playwright 或外部 Chromium。"
+      },
+      "icon": "https://raw.githubusercontent.com/ZCodium-project/zcodium-community-famous-plugins-and-skills/main/assets/video2code.png",
+      "category": "productivity"
+    },
+    {
+      "name": "zcodium-community-skills",
+      "version": "1.0.0",
+      "source": "./skills",
+      "description": "Curated community skills bundle for ZCodium. First batch: Matt Pocock's engineering skills (TDD, code review, debugging, research, specs and more).",
+      "author": {
+        "name": "ZCodium Community"
+      },
+      "displayName": "Community Skills",
+      "displayName_i18n": {
+        "en": "Community Skills",
+        "zh-CN": "社区技能合集"
+      },
+      "description_i18n": {
+        "en": "Curated community skills bundle: Matt Pocock's engineering skills (TDD, code review, debugging, research, specs and more).",
+        "zh-CN": "精选社区技能合集：Matt Pocock 的工程技能（TDD、代码审查、调试、调研、规格等）。"
+      },
+      "category": "utilities"
+    }
+  ]
+}

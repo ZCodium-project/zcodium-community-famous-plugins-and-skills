@@ -1,0 +1,15 @@
+{
+  "name": "zcodium-community-skills",
+  "version": "1.0.0",
+  "description": "Curated community skills bundle for ZCodium. First batch: Matt Pocock's engineering skills (TDD, code review, debugging, research, specs and more).",
+  "description_i18n": {
+    "en": "Curated community skills bundle for ZCodium. First batch: Matt Pocock's engineering skills (TDD, code review, debugging, research, specs and more).",
+    "zh-CN": "ZCodium 精选社区技能合集。首批收录 Matt Pocock 的工程技能（TDD、代码审查、调试、调研、规格等）。"
+  },
+  "author": {
+    "name": "ZCodium Community"
+  },
+  "homepage": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "skills": "."
+}
